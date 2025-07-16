@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    display: block;
+    width: 250px;
+    padding: 8px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#mensagem {
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+/* Estilos gerais para links */
+a {
+    color: #007bff; /* Cor azul padrão para links */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    transition: color 0.3s ease; /* Adiciona uma transição suave na mudança de cor */
+}
+
+a:hover {
+    color: #0056b3; /* Cor mais escura ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estilo para o link de voltar no visualizacao.html */
+#voltar-link {
+    display: block; /* Faz o link ocupar a linha inteira */
+    margin-top: 1rem; /* Adiciona um espaço acima do link */
+    text-align: center; /* Centraliza o texto do link */
+    font-size: 0.9em; /* Diminui um pouco o tamanho da fonte */
+    color: #6c757d; /* Cor cinza um pouco mais clara */
+}
+
+#voltar-link:hover {
+    color: #495057;
+    text-decoration: underline;
+}
+
+/* Estilo para o link de visualização no index.html */
+#visualizar-link {
+    display: block; /* Faz o link ocupar a linha inteira */
+    margin-top: 1.5rem; /* Adiciona um espaço maior acima do link */
+    text-align: center; /* Centraliza o texto do link */
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: #28a745; /* Cor verde para indicar visualização */
+}
+
+#visualizar-link:hover {
+    color: #1e7e34;
+    text-decoration: underline;
+}
